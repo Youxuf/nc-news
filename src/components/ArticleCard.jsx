@@ -4,15 +4,15 @@ import React from "react";
 function ArticleCard({ article }) {
   return (
     <Card className="card">
-      <div className="article-image">
+      <div className="articles-image">
         <CardMedia>
           <img
             src={article.article_img_url}
-            alt="image relating the the article title"
+            alt="image relating to the article title"
           />
         </CardMedia>
       </div>
-      <div className="article-content">
+      <div className="articles-content">
         <h3>{article.title}</h3>
         <p>{article.topic}</p>
         <p>Votes: {article.votes}</p>

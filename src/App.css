@@ -22,14 +22,20 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.article-image img {
+.articles-image img {
   width: 150px;
   height: 100px;
   object-fit: cover;
   border-radius: 8px 0 0 8px;
 }
 
-.article-content {
-  padding: 10px;
+.articles-content {
+  padding: 8px;
   flex: 1;
+}
+
+.article-card {
+  width: "800px";
+  margin: "20px auto";
+  padding: "10px";
 }
