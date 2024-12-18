@@ -39,3 +39,8 @@
   margin: "20px auto";
   padding: "10px";
 }
+
+.article-card img {
+object-fit: cover;
+align-items: center;
+}

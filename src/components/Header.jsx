@@ -8,6 +8,9 @@ function Header() {
         <Link to="/">
           <h1>NC News</h1>
         </Link>
+        <Link to="/">
+          <p>Home</p>
+        </Link>
       </nav>
     </header>
   );
