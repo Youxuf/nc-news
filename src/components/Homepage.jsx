@@ -5,7 +5,7 @@ import ArticleCard from "./ArticleCard";
 function Homepage() {
   const [articles, setArticles] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     setIsLoading(true)
