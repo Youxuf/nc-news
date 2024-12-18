@@ -4,10 +4,11 @@ import ArticleCard from "./ArticleCard";
 
 function Homepage() {
   const [articles, setArticles] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    setIsLoading(true)
     fetchArticles()
       .then((data) => {
         setArticles(data);
